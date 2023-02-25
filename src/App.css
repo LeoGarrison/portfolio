@@ -9,82 +9,6 @@ body {
     overflow-x: hidden;
 }
 
-nav {
-}
-
-main {
-}
-
-#about {
-    width: 100%;
-    height: 100vh;
-    position: relative;
-    background-image: url("./assets/OldBook.png");
-    background-size: contain;
-    background-repeat: no-repeat;
-    object-fit: contain;
-}
-
-#textbox {
-    position: absolute;
-    top: 8%;
-    left: 9%;
-    min-width: 35%;
-    max-width: 35%;
-    height: 69%;
-}
-
-#scene {
-    position: absolute;
-    top: 6%;
-    right: 21%;
-    width: 35%;
-    height: 80%;
-    overflow: hidden;
-}
-
-#city {
-    position: absolute;
-    min-width: 100%;
-    max-width: 100%;
-}
-
-#clock {
-    position: absolute;
-    right: 0%;
-    min-width: 30%;
-    max-width: 30%;
-    animation: bobbing 4s linear infinite;
-}
-
-#mechanicalEye {
-    position: absolute;
-    right: 0%;
-    width: 20%;
-}
-
-@keyframes bobbing {
-    0% {
-        transform: translateY(0%);
-    }
-
-    25% {
-        transform: translateY(-2%);
-    }
-
-    50% {
-        transform: translateY(-4%);
-    }
-
-    75% {
-        transform: translateY(-2%);
-    }
-
-    100% {
-        transform: translateX(0%);
-    }
-}
-
 #maw {
     width: 100%;
     height: 100vh;
@@ -94,24 +18,4 @@ main {
     background-size: contain;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
-
-#projects {
-    position: relative;
-    width: 100%;
-    height: 100vh;
-    background-color: orange;
-}
-
-#contact {
-    position: relative;
-    width: 100%;
-}
-
-#skeletalBook {
-    width: 60%;
-}
-
-#hourGlass {
-    width: 10%;  
 }
