@@ -6,7 +6,7 @@ import "./contact.css";
 const Contact = () => {
     return (
         <>
-            <section id="contact-form">
+            <section id="contact">
                 <img id="skeletalBook" src={skeletalBook} /> 
                 <img id="hourGlass" src={hourGlass} />
             </section>

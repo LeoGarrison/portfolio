@@ -5,17 +5,28 @@
 }
 
 body {
+    container-type: inline-size;
     background-color: black;
     overflow-x: hidden;
 }
 
-#maw {
-    width: 100%;
-    height: 100vh;
+#about {
+    container-type: inline-size;
     position: relative;
-    background-image: url("./assets/Maw.png");
-    background-position: right;
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    width: 100%;
+    background-color: brown;
+}
+
+#projects {
+    container-type: inline-size;
+    position: relative;
+    width: 100%;
+    background-color: purple;
+}
+
+#contact {
+    container-type: inline-size;
+    position: relative;
+    width: 100%;
+    background-color: orange;
 }

@@ -1,11 +1,5 @@
-import { useEffect, useState } from "react";
-
-import hand from "./assets/Hand.png";
-import star from "./assets/Star.png";
-
-import maw from "./assets/Maw.png";
-
 import About from "./components/about/About";
+import Projects from "./components/projects/Projects";
 import Contact from "./components/contact/Contact";
 
 import "./App.css";
@@ -14,6 +8,7 @@ const App = () => {
     return (
         <>
             <About />
+            <Projects />
             <Contact /> 
         </>
     )
