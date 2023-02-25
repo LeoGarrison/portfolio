@@ -14,19 +14,16 @@ body {
     container-type: inline-size;
     position: relative;
     width: 100%;
-    background-color: brown;
 }
 
 #projects {
     container-type: inline-size;
     position: relative;
     width: 100%;
-    background-color: purple;
 }
 
 #contact {
     container-type: inline-size;
     position: relative;
     width: 100%;
-    background-color: orange;
 }
