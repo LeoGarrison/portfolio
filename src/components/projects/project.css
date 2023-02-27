@@ -1,22 +1,23 @@
-.project-card {
+.project {
+    container-type: inline-size;
     position: relative;
-    display: flex;
     width: 100%;
-    height: 100vh;
-    background-color: gold;
+    height: 50vw;
 }
 
 .project-image {
-    width: 50rem;
-    height: 50rem;
-    align-self: center;
-    background-color: grey;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    max-width: 40%;
 }
 
 .project-information {
-    background-color: orange;
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    max-width: 40%;
     width: 40%;
-    height: 100%;
 }
 
 .project-name {
@@ -24,5 +25,6 @@
 }
 
 .project-description {
+    margin-top: 1rem;
     color: white;
 }

@@ -10,15 +10,15 @@ import maw from "/src/assets/Maw.png";
 import Project from "/src/components/projects/Project";
 import "./projects.css";
 
-const Projects = () => {
+const Projects = ({projects}) => {
     return (
         <>
-            <section id="projects">
-                <section id="deep-sea">
-                    <Project name={"one"} description={"description"} image={dragonTree} />
-                    <Project name={"two"} description={"description"} image={skeletonSoldier} />
-                    <img id="maw" src={maw} />
-                </section>
+            <section className="projects">
+                {
+                    projects.map((project) => {
+                        return <Project key={project.name} name={project.name} link={project.link} description={project.description} image={project.image} />
+                    })
+                }
             </section>
         </>
     )

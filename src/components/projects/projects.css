@@ -1,18 +1,5 @@
-#deep-sea {
-    position: relative;
-    width: 100%;
-}
-
-.project {
+.projects {
     container-type: inline-size;
     position: relative;
     width: 100%;
-    height: 100vh;
-}
-
-#maw {
-    position: absolute;
-    width: 70%;
-    bottom: 0%;
-    right: 0%;
 }

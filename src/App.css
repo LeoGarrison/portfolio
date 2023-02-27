@@ -9,21 +9,3 @@ body {
     background-color: black;
     overflow-x: hidden;
 }
-
-#about {
-    container-type: inline-size;
-    position: relative;
-    width: 100%;
-}
-
-#projects {
-    container-type: inline-size;
-    position: relative;
-    width: 100%;
-}
-
-#contact {
-    container-type: inline-size;
-    position: relative;
-    width: 100%;
-}

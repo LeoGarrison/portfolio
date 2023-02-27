@@ -1,7 +1,45 @@
-#skeletalBook {
+.contact {
+    container-type: inline-size;
+    position: relative;
+    width: 100%;
+    height: 15vw;
+}
+
+.contact-information {
+    position: absolute;
+    top: 14%;
+    left: 8%;
+    width: 48%;
+    height: 85%;
+}
+
+.contact-information-left {
+    position: absolute;
+    width: 45%;
+    left: 0%;
+}
+
+.contact-information-left > p {
+    margin-top: 1rem;
+}
+
+.contact-information-right {
+    position: absolute;
+    width: 45%;
+    right: 0%;
+    height: 200px;
+}
+
+.contact-background {
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
     width: 60%;
 }
 
-#hourGlass {
-    width: 10%;  
+#hourglass {
+    position: absolute;
+    right: 30%;
+    bottom: 0%;
+    width: 10%;
 }

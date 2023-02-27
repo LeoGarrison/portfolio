@@ -1,14 +1,28 @@
 import skeletalBook from "/src/assets/SkeletalBook.png";
-import hourGlass from "/src/assets/Hourglass.png";
+import hourglass from "/src/assets/Hourglass.png";
 
 import "./contact.css";
 
-const Contact = () => {
+const Contact = ({contacts}) => {
     return (
         <>
-            <section id="contact">
-                <img id="skeletalBook" src={skeletalBook} /> 
-                <img id="hourGlass" src={hourGlass} />
+            <section className="contact">
+                <img className="contact-background" src={skeletalBook} />
+                <section className="contact-information">
+                    <section className="contact-information-left">
+                        {
+                            contacts.map((contact) => {
+                                return [
+                                    <p key={contact.name} href={contact.link}>{contact.name}: {contact.link}</p>,
+                                ]
+                            })
+                        }
+                    </section>
+                    <section className="contact-information-right">
+        
+                    </section>
+                </section>
+                <img id="hourglass" src={hourglass} />
             </section>
         </>
     )
