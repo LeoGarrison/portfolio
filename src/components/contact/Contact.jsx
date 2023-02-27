@@ -1,5 +1,5 @@
-import skeletalBook from "/src/assets/SkeletalBook.png";
-import hourglass from "/src/assets/Hourglass.png";
+import skeletalBook from "../../assets/SkeletalBook.png";
+import hourglass from "../../assets/Hourglass.png";
 
 import "./contact.css";
 

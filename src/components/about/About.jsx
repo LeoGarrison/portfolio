@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 
-import oldBook from "/src/assets/OldBook.png";
-import city from "/src/assets/City.png";
-import portcullis from "/src/assets/Portcullis.png";
-import clock from "/src/assets/Clock.png";
-import hourHand from "/src/assets/HourHand.png";
+import oldBook from "../../assets/OldBook.png";
+import city from "../../assets/City.png";
+import portcullis from "../../assets/Portcullis.png";
+import clock from "../../assets/Clock.png";
+import hourHand from "../../assets/HourHand.png";
 
 import "./about.css";
 
