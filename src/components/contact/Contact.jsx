@@ -13,13 +13,12 @@ const Contact = ({contacts}) => {
                         {
                             contacts.map((contact) => {
                                 return [
-                                    <p key={contact.name} href={contact.link}>{contact.name}: {contact.link}</p>,
+                                    <p key={contact.name}>{contact.name}: {contact.link}</p>,
                                 ]
                             })
                         }
                     </section>
                     <section className="contact-information-right">
-        
                     </section>
                 </section>
                 <img id="hourglass" src={hourglass} />
