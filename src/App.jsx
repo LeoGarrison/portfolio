@@ -28,7 +28,6 @@ const projects = [
 ]
 
 const contacts = [
-[
     {
         name: "Email",
         link: "leogarrison99@gmail.com"
@@ -41,7 +40,6 @@ const contacts = [
         name: "LinkedIn",
         link: "linkedin.com/in/leo-g-852684241"
     }
-]
 ]
 
 const App = () => {
